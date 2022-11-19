@@ -1,6 +1,8 @@
 # SymbolRoller
 SymbolRoller - UIKit/Storyboard 예제
 
+![image](https://user-images.githubusercontent.com/89061309/202830278-24ce3345-f5f3-4d2f-a601-a8df595aa99e.png)
+
 
 
 ## 학습자료
