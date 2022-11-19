@@ -20,8 +20,9 @@ class SymbolRollerViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        imageView.image = UIImage(systemName: "cloud")
-        label.text = "로드 완료"
+        reload()
+        // 왜 안되지?
+        button.tintColor = UIColor.systemPink
     }
     
     // 이제 화면 뜰꺼야
@@ -35,8 +36,22 @@ class SymbolRollerViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: Any) {
-        label.text = "와 눌렸다"
+        reload()
     }
+    
+    // MARK: -
+    // 심볼에서 임의로 하나를 추출
+    // 이미지와 텍스트를 설정한다
+    func reload() {
+        let symbol = symbols.randomElement()!
+        
+        imageView.image = UIImage(systemName: symbol)
+        label.text = symbol
+        
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
