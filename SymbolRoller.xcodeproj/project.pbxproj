@@ -15,7 +15,7 @@
 		9340EC272928674300D228AE /* SymbolRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EC262928674300D228AE /* SymbolRollerTests.swift */; };
 		9340EC312928674300D228AE /* SymbolRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EC302928674300D228AE /* SymbolRollerUITests.swift */; };
 		9340EC332928674300D228AE /* SymbolRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EC322928674300D228AE /* SymbolRollerUITestsLaunchTests.swift */; };
-		9340EC4029286B6000D228AE /* SymbolRulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EC3F29286B6000D228AE /* SymbolRulerViewController.swift */; };
+		9340EC4029286B6000D228AE /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EC3F29286B6000D228AE /* SymbolRollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		9340EC2C2928674300D228AE /* SymbolRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9340EC302928674300D228AE /* SymbolRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITests.swift; sourceTree = "<group>"; };
 		9340EC322928674300D228AE /* SymbolRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9340EC3F29286B6000D228AE /* SymbolRulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRulerViewController.swift; sourceTree = "<group>"; };
+		9340EC3F29286B6000D228AE /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				9340EC182928674300D228AE /* Assets.xcassets */,
 				9340EC1A2928674300D228AE /* LaunchScreen.storyboard */,
 				9340EC1D2928674300D228AE /* Info.plist */,
-				9340EC3F29286B6000D228AE /* SymbolRulerViewController.swift */,
+				9340EC3F29286B6000D228AE /* SymbolRollerViewController.swift */,
 			);
 			path = SymbolRoller;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			files = (
 				9340EC102928674100D228AE /* AppDelegate.swift in Sources */,
 				9340EC122928674100D228AE /* SceneDelegate.swift in Sources */,
-				9340EC4029286B6000D228AE /* SymbolRulerViewController.swift in Sources */,
+				9340EC4029286B6000D228AE /* SymbolRollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SymbolRulerViewController: UIViewController {
+class SymbolRollerViewController: UIViewController {
     
     let symbols: [String] = ["sun.min", "moon", "cloud", "wind", "snowflake"]
 
